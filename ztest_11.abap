@@ -114,8 +114,8 @@ CLASS zcl_excel IMPLEMENTATION.
   ENDMETHOD.
   METHOD add_data_rows.
 
-    lt_data = VALUE #( ( col1 = 'Damen Yatchting'
-                         col2 = 'Damen Services'
+    lt_data = VALUE #( ( col1 = 'Yatchting'
+                         col2 = 'Services'
                          col3 = 'Workboats'
                          col4 = 'Global Support' )
                        ( col1 = '71'
